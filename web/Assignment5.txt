@@ -1,0 +1,17 @@
+Term Project Deliverable 5
+
+The contribution of each team member
+Georgii Didok:
+Built HashMaps for Http response
+Modified Rational Rose model according to changes on the application structure
+
+Krupal Kapadia:
+Completed 404, 500 Servlets and fixed errors
+Debugged serialize method in HttpResponse class
+
+Seonmi Kim:
+Fixed repetitive appending issues in HttpResponse
+Modified Justin's LoginServlet to get it return response with our application structure
+(Further co-work is needed)
+
+Note: The application is placed in /common/software/ExamScheduler/src/web

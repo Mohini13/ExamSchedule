@@ -1,0 +1,10 @@
+Use Case name: Update period records 
+Short Description: Administrator updates period information
+Actors: Administrator
+Trigger: updates the period information 
+Preconditions: existing information 
+Post conditions: Updated Information 
+Results: Commit the changes for Period table
+Outline:
+1.	updates existing information 
+2.	commits information  

@@ -1,0 +1,11 @@
+Use Case name: Update exam_schedule records 
+Short Description: Administrator updates exam_schedule information
+Actors: Administrator
+Trigger: updates exam_schedule information 
+Preconditions: updates existing information 
+Postconditions: updated information
+Results: outputs the updated version of the exam_schedule table 
+Outline:
+Access exam_schedule table 
+updates existing information 
+commits information  

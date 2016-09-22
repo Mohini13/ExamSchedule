@@ -1,0 +1,12 @@
+Use Case name: Create room records 
+Short Description: Administrator inserts room records in the location table 
+Actors: Administrators
+Trigger: inserts room information into the location table 
+Preconditions: created table without data
+Postconditions: stored records
+Results: outputs the updated version of the exam schedule 
+Outline:
+Access location table
+inserts information into location table
+Stores information 
+commits information

@@ -1,0 +1,45 @@
+  _____                          _        _   _                _____                       
+ |  __ \                        | |      | | (_)              / ____|                      
+ | |__) | __ ___  ___  ___ _ __ | |_ __ _| |_ _  ___  _ __   | |  __ _ __ ___  _   _ _ __  
+ |  ___/ '__/ _ \/ __|/ _ \ '_ \| __/ _` | __| |/ _ \| '_ \  | | |_ | '__/ _ \| | | | '_ \ 
+ | |   | | |  __/\__ \  __/ | | | || (_| | |_| | (_) | | | | | |__| | | | (_) | |_| | |_) |
+ |_|   |_|  \___||___/\___|_| |_|\__\__,_|\__|_|\___/|_| |_|  \_____|_|  \___/ \__,_| .__/ 
+                                                                                    | |    
+                                                                                    |_|    
+===========================================================================================
+
+October 26, 2015
+
+Group Members:	Lobsang Bohra
+		Justin Kan
+
+Lobsang Bohra:
+
+
+Justin Kan:	Created cover/ update file
+		Updated cover/ update file
+		Created use cases
+		Edited use cases
+
+
+November 5, 2015
+
+Lobsang Bohra:
+
+
+Justin Kan:	Created Login, Logout, Error, Edit(normal user), Edit(super user) screens
+
+
+November 16, 2015:
+Have to redo how pages will look like by Thursday (more simplistic design)
+Posted template Servlet to show how it will be done with simplistic design
+
+November 23, 2015:
+Added some HTML files(can use notepad to open)
+Added filereader
+
+Novmeber 26, 2015:
+Finished up HTML templates,HTML code is finished (needs to be converted to servlet code as servlets are made)
+Finished Login, Error Java codes
+Made a login check, need to ask if it makes actual sense
+

@@ -1,0 +1,11 @@
+Use Case name: Delete exam_schedule records 
+Short Description: Administrator deletes records exam schedule
+Actors: Administrator
+Trigger: delete exam_schedule information from exam_schedule schedule 
+Preconditions: existing tables must be already in the database
+Postconditions: records deleted
+Results: outputs the updated version of the exam_schedule 
+Outline:
+1. Access exam_schedule tables 
+2. deletes existing records
+3. commit information

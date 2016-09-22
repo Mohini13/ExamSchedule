@@ -1,0 +1,11 @@
+Use Case name: Update course records 
+Short Description: Administrator updates course information
+Actors: Administrator
+Trigger: updates course information 
+Preconditions: updates existing information 
+Postconditions: updated information
+Results: outputs the updated version of the table 
+Outline:
+Access course table 
+updates existing information 
+commits information 

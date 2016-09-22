@@ -1,0 +1,13 @@
+Use Case name: CRUD faculty
+Short Description: Creating faculty record, updating faculty and delete faculty records.
+Actors: Administration
+Trigger: CRUD the record of Teacher
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for faculty
+Results: Committed 
+Outline:	
+1.	Creating faculty records
+2.	Updating faculty records
+3.	Delete faculty records
+4.	Commit the data
+5.	Return

@@ -1,0 +1,10 @@
+Use Case name: Create URL-Access records 
+Short Description: Administration create the information from URL-Access records 
+Actors: Administrator
+Trigger: create URL-Access information from URL-Access records 
+Preconditions: Existing information of URL-Access records 
+Post conditions: Information created 
+Results: creation Committed 
+Outline:
+7.	create information 
+8.	create Changes

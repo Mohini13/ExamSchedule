@@ -1,0 +1,141 @@
+1. what
+2. how
+
+
+Use Cases Types
+
+Functional
+1. Browse schedule
+2. Edit schedule
+3. CRUD courses/rooms/sections/times/programs
+4. CRUD users
+5. CRUD exam periods
+
+Non-Functional
+1. Frendly UI
+2. archive previous users/schedules/times/rooms/sections/courses/programs
+3. Classes of users with permissions
+
+
+=== Use Cases ===
+
+Name:				Browse URL
+Short Description:	Determines level of authentication grants user to login 
+Actors:          	User
+Trigger:         	User would like to see a specific url 
+Precondition:    	System must be online
+Postcondition:   	Determine if session is logged in or not  
+Result:          	permission granted/rejected to the url
+Outline:         	1. User login and password
+                 	2. Determine if credencials are correct
+                 	3. Check user-list to determine if user has privilages to url
+                 	4. An error code is generated or
+                 	5. Permission to the url is granted
+
+Alt flow A1 [credentials are incorrect at step 2 in the main flow]
+		A1.1 Return login failure
+Alt flow A2 [insufficient permission to the url at step 3 in the main flow]
+		A2.1 Return permission denied
+
+
+Name:				Generate Schedule
+Short Description:	User would like to generate schedule
+Actors:          	User
+Trigger:         	User would like to make a new schedule
+Precondition:    	All data must exist in DB
+Postcondition:   	Determine a new schedule
+Result:          	Schedule is made
+Outline:         	1. User does all needed CRUD
+                 	2. User requests a new schedule
+                 	3. User receives schedule
+                 	4. User confirms schedule
+                 	5. New schedule saved into DB
+
+
+use cases for CRUD:
+Log in
+	- user has permisiion
+	- get stuff from db
+	- generate code
+Log Outline
+
+Name:				CRUD data (RW)
+Short Description:	User would like to do a specific CRUD
+Actors:          	User
+Trigger:         	User would like to change some data
+Precondition:    	System must be online
+Postcondition:   	Data is processed
+Result:          	Data is read or changed
+Outline:         	1. User logs in
+					2. User requests CRUD to specific data
+                 	3. Checking permissions to the data
+                 	4. CRUD data
+                 	5. Return data from DB
+                 	6. Generate return code
+                 	7. User logs out
+Alt flow A1 [credentials are incorrect at step 1 in the main flow]
+		A1.1 Return login failure
+Alt flow A2 [requested data does not exist at step 2 in the main flow]
+		A2.1 Return data does not exist
+Alt flow A3 [insufficient CRUD permission to the data at step 3 in the main flow]
+		A3.1 Return permission denied
+
+
+
+// CRUD can be done for all following tables:
+exam_periods (start & end dates)
+exam_history
+courses
+groups (e.g. CPAN - semester1)
+semesters
+sections
+time_lockuots (e.g. Fri evening)
+rooms
+room_types (classroom or lab)
+programs
+users
+user_roles (user, admin)
+
+// e.g.
+Name:				CRUD Exam Periods
+Short Description:	User would like to change exam periods
+Actors:          	User
+Trigger:         	User requests update of exam periods
+Precondition:    	User must have enough privileges to do CRUD
+Postcondition:   	Data is processed
+Result:          	Data is saved
+Outline:         	1. User logs in
+					2. User requests CRUD to the Exam Periods
+					3. Checking permissions to the Exam Periods
+					4. User CRUD Exam Periods
+                 	5. Return data
+                 	6. Generate return code
+                 	7. User logs out
+
+Alt flow A1 [credentials are incorrect at step 1 in the main flow]
+		A1.1 Return login failure
+Alt flow A2 [requested data does not exist at step 2 in the main flow]
+		A2.1 Return data does not exist
+Alt flow A3 [insufficient permission to the url at step 3 in the main flow]
+		A3.1 Return permission denied
+
+
+
+
+Name:				Read Data (R)
+Short Description:	User would like to do a see a specific data
+Actors:          	User
+Trigger:         	User would like to get some data from DB
+Precondition:    	System must be online (Data should be in DB)
+Postcondition:   	Data is selected
+Result:          	Data is read
+Outline:         	1. User logs in
+					2. User selects data from specific table
+                 	3. Checking permissions to the table
+                 	4. Return data from table
+                 	5. Generate return code
+                 	6. User logs out
+
+
+
+

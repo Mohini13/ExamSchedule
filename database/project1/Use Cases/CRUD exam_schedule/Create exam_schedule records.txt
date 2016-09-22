@@ -1,0 +1,11 @@
+Use Case name: Create exam_schedule records 
+Short Description: Administrator inserts exam_schedule records in the exam_schedule table 
+Actors: Administrators
+Trigger: inserts exam_schedule information into the exam_schedule table 
+Preconditions: created table without data
+Postconditions: stored room information
+Results: outputs the updated version of the exam schedule 
+Outline:
+Access exam_schedule table
+inserts information into exam_schedule table
+Stores information 

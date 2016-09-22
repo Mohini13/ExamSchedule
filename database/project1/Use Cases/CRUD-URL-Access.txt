@@ -1,0 +1,13 @@
+Use Case name: CRUD URL-Access
+Short Description: Creating URL-Access record, updating URL-Access and delete URL-Access records.
+Actors: Administration
+Trigger: CRUD the record of URL-Access
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for URL-Access
+Results: Committed 
+Outline:	
+1.	Creating URL-Access records
+2.	Updating URL-Access records
+3.	Delete URL-Access records.
+4.	Commit the data
+5.	Return

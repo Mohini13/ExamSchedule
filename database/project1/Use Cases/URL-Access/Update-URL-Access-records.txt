@@ -1,0 +1,10 @@
+Use Case name: Update URL-Access records 
+Short Description: Administrator updates URL-Access information
+Actors: Administrator
+Trigger: updates the URL-Access information 
+Preconditions: existing information 
+Post conditions: Updated Information 
+Results: Commit the changes for URL-Access table
+Outline:
+7.	updates existing information 
+8.	commits information 

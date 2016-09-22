@@ -1,0 +1,13 @@
+Use Case name: CRUD Rooms
+Short Description: Creating Rooms record, updating CRUD Rooms and delete Rooms records.
+Actors: Administration
+Trigger: CRUD the record of CRUD Rooms
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for CRUD Rooms
+Results: Committed 
+Outline:	
+1.	Creating  Rooms records
+2.	Updating  Rooms s records
+3.	Delete Rooms records.
+4.	Commit the data
+5.	Return

@@ -1,0 +1,11 @@
+Use Case name: Delete room records 
+Short Description: Administrator faculty will be able to delete exam schedule
+Actors: Administrator
+Trigger: delete exam information into the exam schedule 
+Preconditions: existing tables must be already in the database
+Postconditions: records deleted
+Results: outputs the updated version of the exam schedule and users can view it
+Outline:
+Access room tables 
+deletes existing records
+commit information

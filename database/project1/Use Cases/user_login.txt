@@ -1,0 +1,12 @@
+Use Case name: User Login
+Short Description: The user’s information entered must match what is in the database
+Actors: faculty
+Trigger: log-in information request will be matched against what is in the database
+Preconditions: username and password are already in the database
+Post conditions: matching username and password information
+Results: user information request is sent to the server for verification 
+Outline:
+Receive queries to retrieve user information
+Access the username table 
+Looks for username and password
+Sends back the username and password information for verification

@@ -1,0 +1,11 @@
+Use Case name: Schedule exam 
+Short Description: Information insert in the exam schedule
+Actors: Faculty 
+Trigger: inserts exam information into the exam schedule 
+Preconditions: existing tables are already in the database
+Postconditions: Exam schedule information is stored 
+Results: Information is committed 
+Outline:
+1. Receive queries to add the exam schedule information
+2. Commit the added information 
+3. Return 

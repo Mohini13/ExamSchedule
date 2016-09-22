@@ -1,0 +1,12 @@
+Use Case name: Create new-faculty records 
+Short Description: Administrator inserts faculty records in the faculty table 
+Actors: Administrators
+Trigger: inserts faculty information into the faculty table 
+Preconditions: created table without data
+Postconditions: stored new-faculty information
+Result: record of information about new-faculty
+Results: outputs the updated version of the faculty schedule 
+Outline:
+1. Access faculty table
+2. inserts information into faculty table
+3. Stores information 

@@ -1,0 +1,12 @@
+Use Case name: View Schedule on a weekly basis
+Short Description: Users views the schedule on a weekly basis 
+Actors: faculty and students
+Trigger: User would like to see the schedule on a weekly basis
+Preconditions:  Populating the existing data
+Postconditions:  access information from exam schedule table to retrieve the day, start_date, end_date, course_id, exam_period and room number
+ Results: outputs the schedule on a weekly basis 
+Outline: 
+Receive queries to view schedule on a weekly basis
+Access information from exam schedule table
+Retrieve the day, start_date, end_date, program name, course name, course section, and room number information 
+Send back the information

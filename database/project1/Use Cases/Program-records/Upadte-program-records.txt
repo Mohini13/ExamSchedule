@@ -1,0 +1,11 @@
+
+Use Case name: Update program records 
+Short Description: Administrator updates program information
+Actors: Administrator
+Trigger: updates the program information 
+Preconditions: existing information 
+Post conditions: Updated Information 
+Results: Commit the changes for program table
+Outline:
+9.	updates existing information 
+10.	commits information  

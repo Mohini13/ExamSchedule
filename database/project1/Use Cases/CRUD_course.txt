@@ -1,0 +1,14 @@
+Use Case name: CRUD Course
+Short Description: Creating Course record, updating Course and delete Course records.
+Actors: Administration
+Trigger: CRUD the record of Course
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for Course
+Results: Committed 
+Outline:	
+1.	Creating Course records
+2.	Updating Course records
+3.	Delete Course records
+4.	Commit the data
+5.	Return
+

@@ -1,0 +1,11 @@
+Use Case name: Update room records 
+Short Description: Administrator updates room information
+Actors: Administrator
+Trigger: updates room information 
+Preconditions: updates existing information 
+Postconditions: updated information
+Results: outputs the updated version of the location table 
+Outline:
+Access location table 
+updates existing information 
+commits information  

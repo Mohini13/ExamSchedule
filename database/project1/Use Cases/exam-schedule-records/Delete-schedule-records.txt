@@ -1,0 +1,10 @@
+Use Case name: Delete Exam-Schedule records 
+Short Description: Administration delete the information from Exam-Schedule records 
+Actors: Administrator
+Trigger: delete Exam-Schedule information from period records 
+Preconditions: Existing information of Exam-Schedule records 
+Post conditions: Information deleted 
+Results: Deletion Committed 
+Outline:
+3.	Delete information 
+4.	Commit Changes

@@ -1,0 +1,11 @@
+Use Case name: Delete course records 
+Short Description: Administrator deletes records in the course schedule
+Actors: Administrator
+Trigger: delete course information 
+Preconditions: existing data must 
+Postconditions: records deleted
+Results: outputs the updated version of the table
+Outline:
+1. Access course tables 
+2. deletes existing records
+3. commit information

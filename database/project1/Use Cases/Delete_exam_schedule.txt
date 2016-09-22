@@ -1,0 +1,12 @@
+Use Case name: Delete exam schedule
+Short Description: faculty will be able to delete exam schedule
+Actors: Faculty 
+Trigger: delete exam information into the exam schedule 
+Preconditions: existing tables must be already in the database
+Postconditions: view the schedule 
+Results: outputs the updated version of the exam schedule and users can view it
+Outline:
+    1. Receive queries to create, update or delete data into the exam schedule 
+2. View schedule
+3. Access information from program, semester, exam period, courses
+4. Send back information 

@@ -1,0 +1,10 @@
+Use Case name: Delete Semester records 
+Short Description: Faculty delete the information from period records 
+Actors: Faculty
+Trigger: delete Semester information from period records 
+Preconditions: Existing information of Semester records 
+Post conditions: Information deleted 
+Results: Deletion Committed 
+Outline:
+1.	Delete information 
+2.	Commit Changes

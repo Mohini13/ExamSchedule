@@ -1,0 +1,13 @@
+Use Case name:  Add Users
+Short Description: Add students and teachers information
+Actors: administrator
+Trigger: add the information of new users
+Preconditions:  existing students and teacher information is already in the database
+Postconditions: Information of new users is stored.
+Results: having list of users which they have exams
+Outline: 
+1.Receive queries list of users which they have an exams
+2.View schedule
+3.Access tables from program, semester, exam period, courses
+4.Place result into a table as text format
+5.Return 

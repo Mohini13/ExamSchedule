@@ -1,0 +1,13 @@
+Use Case name: CRUD Exam-Periods
+Short Description: Creating Exam-Periods record, updating Exam-Periods and delete Exam-Periods records.
+Actors: Administration
+Trigger: CRUD the record of Exam-Periods
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for Exam-Periods
+Results: Committed 
+Outline:	
+1.	Creating Exam-Periods records
+2.	Updating Exam-Periods records
+3.	Delete Exam-Periods records.
+4.	Commit the data
+5.	Return

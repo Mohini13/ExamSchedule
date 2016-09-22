@@ -1,0 +1,11 @@
+Use Case name: Create Exam-Schedule records 
+Short Description: Administrator inserts Exam-Schedule records in the database
+Actors: Administrators
+Trigger: Inserts Exam-Schedule information into the database
+Preconditions: Created table without data
+Post conditions: Stored Record 
+Results: Records are Committed 
+Outline:
+4.	inserts information into table
+5.	Stores information 
+6.	Commit information

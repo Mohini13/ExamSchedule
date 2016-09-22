@@ -1,0 +1,11 @@
+Use Case name: Create Semester records 
+Short Description: Faculty inserts Semester records in the database
+Actors: Faculty
+Trigger: Inserts Semester information into the database
+Preconditions: Created table without data
+Post conditions: which semeter is
+Results: fail or success
+Outline:
+1.	inserts information into table
+2.	Stores information 
+3.	Commit information

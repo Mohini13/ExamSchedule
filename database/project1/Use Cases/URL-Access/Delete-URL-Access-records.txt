@@ -1,0 +1,10 @@
+Use Case name: Delete URL-Access records 
+Short Description: Administration delete the information from URL-Access records 
+Actors: Administrator
+Trigger: delete URL-Access information from URL-Access records 
+Preconditions: Existing information of URL-Access records 
+Post conditions: Information deleted 
+Results: Deletion Committed 
+Outline:
+7.	Delete information 
+8.	Commit Changes

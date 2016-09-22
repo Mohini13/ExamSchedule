@@ -1,0 +1,13 @@
+Use Case name: CRUD Period
+Short Description: Creating Period record, updating period and delete period records.
+Actors: Administration
+Trigger: CRUD the record of period
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for period.
+Results: Committed 
+Outline:	
+1.	Creating Period record
+2.	Updating period
+3.	Delete period records.
+4.	Commit the data
+5.	Return

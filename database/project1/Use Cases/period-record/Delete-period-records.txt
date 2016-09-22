@@ -1,0 +1,10 @@
+Use Case name: Delete Period records 
+Short Description: Administration delete the information from period records 
+Actors: Administrator
+Trigger: delete period information from period records 
+Preconditions: Existing information of period records 
+Post conditions: Information deleted 
+Results: Deletion Committed 
+Outline:
+1.	Delete information 
+2.	Commit Changes

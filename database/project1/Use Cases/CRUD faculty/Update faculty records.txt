@@ -1,0 +1,11 @@
+Use Case name: Update faculty records 
+Short Description: Administrator updates faculty information
+Actors: Administrator
+Trigger: updates faculty information 
+Preconditions: updates existing information 
+Postconditions: updated information
+Results: outputs the updated version of the table 
+Outline:
+Access faculty table 
+updates existing information 
+commits information  

@@ -1,0 +1,11 @@
+Use Case name: Delete faculty records 
+Short Description: Administrator deletes records in the faculty schedule
+Actors: Administrator
+Trigger: delete faculty information 
+Preconditions: existing data must 
+Postconditions: records deleted
+Results: outputs the updated version of the table
+Outline:
+1. Access faculty tables 
+2. deletes existing records
+3. commit information

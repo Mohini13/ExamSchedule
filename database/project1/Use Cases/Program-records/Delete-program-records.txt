@@ -1,0 +1,10 @@
+Use Case name: Delete program records 
+Short Description: Administration delete the information from program records 
+Actors: Administrator
+Trigger: delete URL-Access information from program records 
+Preconditions: Existing information of program records 
+Post conditions: Information deleted 
+Results: Deletion Committed 
+Outline:	
+9.	Delete information 
+10.	Commit Changes

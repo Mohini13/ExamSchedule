@@ -1,0 +1,13 @@
+Use Case name: CRUD Program
+Short Description: Creating Program record, updating Program and delete Program records.
+Actors: Administration
+Trigger: CRUD the record of Program
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for Program
+Results: Committed 
+Outline:	
+1.	Creating Program records
+2.	Updating Program records
+3.	Delete Program records
+4.	Commit the data
+5.	Return

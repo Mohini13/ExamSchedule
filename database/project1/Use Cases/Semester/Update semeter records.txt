@@ -1,0 +1,10 @@
+Use Case name: Update Semester records 
+Short Description: Faculty updates period information
+Actors: Faculty
+Trigger: updates the Semester information 
+Preconditions: existing information 
+Post conditions: Updated Information 
+Results: Commit the changes for Semester table
+Outline:
+1.	updates existing information 
+2.	commits information  

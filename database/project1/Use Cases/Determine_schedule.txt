@@ -1,0 +1,12 @@
+Use Case name: Determine Schedule
+Short Description: Users view requested schedule
+Actors: students, faculty
+Trigger: to get request from students to viewed
+Preconditions: creating table, collection and required data
+Postconditions:  output which is viewed
+Results: whole schedule,date,time,course name, location 
+Outline:
+Receive queries 
+Access tables to data information on program, semester, section, exam period
+place result(course,teacher)
+Return

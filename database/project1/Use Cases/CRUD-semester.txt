@@ -1,0 +1,13 @@
+Use Case name: CRUD Semester
+Short Description: Creating Semester record, updating Semester and delete Semester records.
+Actors: Administration
+Trigger: CRUD the record of Semester
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for Semester.
+Results: Committed 
+Outline:	
+1.	Creating Semester records
+2.	Updating Semester records
+3.	Delete Semester records.
+4.	Commit the data
+5.	Return

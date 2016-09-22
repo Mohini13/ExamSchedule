@@ -1,0 +1,11 @@
+Use Case name: Create period records 
+Short Description: Administrator inserts period records in the database
+Actors: Administrators
+Trigger: Inserts period information into the database
+Preconditions: Created table without data
+Post conditions: Stored Record 
+Results: Records are Committed 
+Outline:
+1.	inserts information into table
+2.	Stores information 
+3.	Commit information

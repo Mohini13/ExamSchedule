@@ -1,0 +1,13 @@
+Use Case name: CRUD Exam-schedule
+Short Description: Creating Exam-schedule record, updating Exam-schedule and delete Exam-schedule records.
+Actors: Administration
+Trigger: CRUD the record of Exam-schedule
+Preconditions: inserting the records for the table 
+Post conditions: CRUD the data records for Exam-schedule
+Results: Committed 
+Outline:	
+1.	Creating Exam-schedule records
+2.	Updating  Exam-schedule records
+3.	Delete Exam-schedule records.
+4.	Commit the data
+5.	Return

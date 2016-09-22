@@ -1,0 +1,11 @@
+Use Case name: Create URL-Access records 
+Short Description: Administrator inserts URL-Access records in the database
+Actors: Administrators
+Trigger: Inserts URL-Access period information into the database
+Preconditions: Created table without data
+Post conditions: Stored Records of passing or failing
+Results: fail or pass
+Outline:
+1.	inserts information into table
+2.	Stores information 
+3.	Commit information

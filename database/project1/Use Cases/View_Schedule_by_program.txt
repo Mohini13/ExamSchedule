@@ -1,0 +1,13 @@
+Use Case name: View Schedule by program 
+Short Description: Users views the schedule by program 
+Actors: faculty and students
+Trigger: Users views the schedule by program
+Preconditions:   Populating the existing data
+Postconditions: access information from exam schedule table to retrieve the day, start_date, end_date, course_id, exam_period and room number
+
+Results: outputs the schedule by program
+Outline:
+Receive queries to view schedule by program
+Access information from exam schedule table
+Retrieve the day, start_date, end_date, program name, course name, course section, and room  number information 
+Send back the information

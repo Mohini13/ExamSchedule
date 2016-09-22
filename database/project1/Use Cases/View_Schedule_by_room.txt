@@ -1,0 +1,12 @@
+Use Case name: View Schedule by room 
+Short Description: Users views the schedule by room 
+Actors: students
+Trigger: user requests schedule by room
+Preconditions:  Populating the existing data
+Postconditions: access information from exam schedule table to retrieve the day, start_date, end_date, course_id, exam_period and room number
+Results: outputs the schedule by room 
+Outline:
+Receive queries to view schedule by room
+Access information from exam schedule table
+Retrieve the day, start_date, end_date, program name, course name, course section, and room  number information 
+Send back the information
